@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+.color-azul{
+    color: #bce7fc;
+}
+
+.borde-verde{
+    border-color: #2add97;
+}
+
+.color-verde{
+    color: #2add97;
+}
+
+.verde{
+    background-color: #2add97;
+}
+
+.negro{
+    background-color: #212121;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

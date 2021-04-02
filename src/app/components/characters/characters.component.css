@@ -1,0 +1,7 @@
+.heigth{
+    height: 600px;
+}
+
+.personajes{
+    @apply flex flex-col sm:flex-col md:flex-row;
+}
