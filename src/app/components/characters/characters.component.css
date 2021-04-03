@@ -2,6 +2,14 @@
     height: 600px;
 }
 
-.personajes{
-    @apply flex flex-col sm:flex-col md:flex-row;
+.alive h4, .alive i{
+    color: green;
+}
+
+.dead h4, .dead i{
+    color: red;
+}
+
+.unknown h4, .unknown i{
+    color: gray;
 }

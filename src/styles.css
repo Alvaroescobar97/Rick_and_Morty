@@ -3,21 +3,36 @@
 }
 
 .borde-verde{
+    border-color: #3E7A19;
+}
+
+.borde-verde-claro{
     border-color: #2add97;
 }
 
 .color-verde{
+    color: #3E7A19;
+}
+
+.color-verde-claro{
     color: #2add97;
 }
 
 .verde{
-    background-color: #2add97;
+    background-color: #3E7A19;
 }
 
 .negro{
     background-color: #212121;
 }
 
+.bg-amarillo{
+    background-color: #f9f575;
+}
+
+.amarillo{
+    color: #f9f575;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
