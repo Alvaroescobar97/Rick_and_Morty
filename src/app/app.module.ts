@@ -8,6 +8,7 @@ import { CharactersComponent } from './components/characters/characters.componen
 import { LocationsComponent } from './components/locations/locations.component';
 import { Error404Component } from './components/error404/error404.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     CharactersComponent,
     LocationsComponent,
     Error404Component,
-    NavBarComponent
+    NavBarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

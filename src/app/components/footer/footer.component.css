@@ -1,0 +1,6 @@
+.icons{
+    @apply flex flex-row pb-5 space-x-8;
+}
+.icon{
+    @apply flex w-10 h-10 items-center justify-center rounded-full text-xl;
+}

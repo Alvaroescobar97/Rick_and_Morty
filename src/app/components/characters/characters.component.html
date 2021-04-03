@@ -1,10 +1,10 @@
 <div class="flex flex-col sm:flex-row md:flex-row flex-wrap container mx-auto items-center sm:justify-evenly md:justify-evenly mt-5">
 
-    <div class="flex flex-col border-2 border-black mb-5 heigth w-72 items-center text-center rounded-lg negro" *ngFor="let personaje of arrCharacters">
+    <div class="flex flex-col border-2 border-black mb-5 heigth w-72 items-center text-center rounded-lg bg-bl" *ngFor="let personaje of arrCharacters">
 
         <img class="w-full" [src]="personaje.image" [alt]="personaje.name">
         <div class="p-5">
-            <h3 class="block font-bold text-4xl rounded-2xl p-2 my-2 bg-amarillo">{{personaje.name}}</h3>
+            <h3 class="block font-bold text-4xl rounded-2xl p-2 my-2 bg-ye">{{personaje.name}}</h3>
             <h4 class="text-2xl text-white">{{personaje.gender}}</h4>
             <h4 class="text-2xl text-white">{{personaje.species}}</h4>
 

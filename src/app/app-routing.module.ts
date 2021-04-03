@@ -7,8 +7,8 @@ import { LocationsComponent } from './components/locations/locations.component';
 
 const routes: Routes = [
   {path:'', pathMatch:'full', redirectTo:'personajes'},
-  {path:'personajes', component:CharactersComponent},
-  {path:'planetas', component:LocationsComponent},
+  {path:'characters', component:CharactersComponent},
+  {path:'planets', component:LocationsComponent},
   {path:'**', component:Error404Component}
 ];
 

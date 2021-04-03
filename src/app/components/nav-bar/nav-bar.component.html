@@ -1,17 +1,17 @@
-<nav class="bg-gray-800 text-2xl font-black text-white">
+<nav class="bg-bl text-2xl font-black text-white">
     <div class="flex flex-col sm:flex-col md:flex-row container justify-between m-auto py-2">
-  
-      <div class="flex flex-row text-center md:text-left items-center space-x-2 my-2 md:my-0">
+      
+      <div class="flex flex-row text-center md:text-left items-center justify-center space-x-2 my-2 md:my-0">
+        <img src="../../../assets/img/space-ship.png" class="w-24 h-16" alt="Space Ship">
         <!--
-        <i class="fas fa-rocket text-4xl color-verde"></i>
+                  <h1 class="color-light-blue"><span class="color-yellow">Rick</span><span class="color-green"> & </span>Morty</h1>
         -->
-        <img src="../../../assets/img/images.png" class="w-20 h-12" alt="">
-        <h1 class="color-azul"><span class="amarillo">Rick</span><span class="color-verde"> & </span>Morty</h1>
+        <img src="../../../assets/img/lettering.png" class="w-44 h-16" alt="Lettering">
       </div>
   
-      <div class="flex flex-col text-center sm:flex-col md:flex-row md:text-right md:space-x-4">
-        <a class="py-3 px-3 rounded-full border-2 color-verde-claro borde-verde-claro mb-2 md:mb-0" [routerLink]="['/personajes']" routerLinkActive="router-link-active" >Personajes</a>
-        <a class="py-3 px-3 rounded-full border-2 color-verde-claro borde-verde-claro" [routerLink]="['/planetas']" routerLinkActive="router-link-active" >Planetas</a>
+      <div class="flex flex-col text-center sm:flex-col md:flex-row md:text-right md:space-x-4 items-center">
+        <a class="btn-nav color-light-green border-light-green mb-2 md:mb-0" [routerLink]="['/characters']" routerLinkActive="bg-li-gr text-black" >Characters</a>
+        <a class="btn-nav color-light-green border-light-green" [routerLink]="['/planets']" routerLinkActive="bg-li-gr text-black" >Planets</a>
       </div>
       
     </div>

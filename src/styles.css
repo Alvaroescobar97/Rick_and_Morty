@@ -1,36 +1,44 @@
-.color-azul{
+.color-light-blue{
     color: #bce7fc;
 }
 
-.borde-verde{
+.border-green{
     border-color: #3E7A19;
 }
 
-.borde-verde-claro{
+.border-light-green{
     border-color: #2add97;
 }
 
-.color-verde{
+.color-green{
     color: #3E7A19;
 }
 
-.color-verde-claro{
+.color-light-green{
     color: #2add97;
 }
 
-.verde{
+.bg-blu{
+    background-color: #bce7fc;
+}
+
+.bg-li-gr{
+    background-color: #2add97;
+}
+
+.bg-gr{
     background-color: #3E7A19;
 }
 
-.negro{
+.bg-bl{
     background-color: #212121;
 }
 
-.bg-amarillo{
+.bg-ye{
     background-color: #f9f575;
 }
 
-.amarillo{
+.color-yellow{
     color: #f9f575;
 }
 @tailwind base;
