@@ -1,0 +1,17 @@
+.banner-image{
+    background-image: url(../../../assets/img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+
+.banner-image-1{
+    background-image: url(../../../assets/img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+
+

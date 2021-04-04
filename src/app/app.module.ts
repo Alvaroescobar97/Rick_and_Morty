@@ -9,6 +9,7 @@ import { LocationsComponent } from './components/locations/locations.component';
 import { Error404Component } from './components/error404/error404.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FooterComponent } from './components/footer/footer.component';
     LocationsComponent,
     Error404Component,
     NavBarComponent,
-    FooterComponent
+    FooterComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,

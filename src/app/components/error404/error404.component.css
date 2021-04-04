@@ -6,11 +6,10 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .lost-image p {
     position: absolute;
     top: 5%;
     right: 10%;
-    color: black;
-    background-color: white;
     border-radius: 10px;
 }
