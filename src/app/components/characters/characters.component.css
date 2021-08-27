@@ -13,3 +13,7 @@
 .unknown h4, .unknown i{
     color: gray;
 }
+.disabled{
+  background-color: #212121;
+  color: white;
+}

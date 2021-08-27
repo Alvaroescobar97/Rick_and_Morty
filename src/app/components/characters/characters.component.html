@@ -1,10 +1,10 @@
 <div class="container mx-auto flex flex-col items-center">
-    
+
     <h1 class="text-5xl font-black py-5">Characters</h1>
 
     <div class="w-full flex flex-row">
-        <button class="py-3 px-3 rounded-lg border-2 bg-green-dark border-black hover:bg-black-dark hover:text-white mr-2">Anterior</button>
-        <button class="py-3 px-3 rounded-lg border-2 bg-green-dark border-black hover:bg-black-dark hover:text-white">Siguiente</button>
+        <button class="py-3 px-3 rounded-lg border-2 bg-green-dark border-black hover:bg-black-dark hover:text-white mr-2" (click)="anterior()" [attr.disabled]="page <= 1 ? true : null" [ngClass]="{'disabled': page <= 1}">Anterior</button>
+        <button class="py-3 px-3 rounded-lg border-2 bg-green-dark border-black hover:bg-black-dark hover:text-white" (click)="siguiente()" [attr.disabled]="page >= maxPages ? true : null" [ngClass]="{'disabled': page >= maxPages}">Siguiente</button>
     </div>
 </div>
 
@@ -25,7 +25,7 @@
 
             <h4 class="text-2xl text-white">{{personaje.origin.name}}</h4>
         </div>
-        
+
     </div>
 
 </div>

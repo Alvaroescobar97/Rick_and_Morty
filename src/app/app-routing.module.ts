@@ -6,10 +6,10 @@ import { LocationsComponent } from './components/locations/locations.component';
 
 
 const routes: Routes = [
-  {path:'', pathMatch:'full', redirectTo:'personajes'},
-  {path:'characters', component:CharactersComponent},
-  {path:'planets', component:LocationsComponent},
-  {path:'**', component:Error404Component}
+  {path: '', pathMatch: 'full', redirectTo: 'personajes'},
+  {path: 'characters', component: CharactersComponent},
+  {path: 'planets', component: LocationsComponent},
+  {path: '**', component: Error404Component}
 ];
 
 @NgModule({
